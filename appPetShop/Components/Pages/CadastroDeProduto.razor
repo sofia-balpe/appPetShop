@@ -1,0 +1,151 @@
+﻿@page "/CadastroDeProduto"
+<h3>CadastroDeProduto</h3>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #165C3C;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #11412A;
+      height: 100vh;
+    }
+
+    .sidebar .nav-link {
+      color: #FFFFFF;
+    }
+
+    .sidebar .nav-link:hover {
+      background-color: #165C3C;
+    }
+
+    .logo-top {
+      width: 100%;
+      max-width: 150px;
+      margin-bottom: 2rem;
+    }
+
+   .content {
+     background-color: #6EAC88;
+     min-height: 100vh;
+     padding: 2rem;
+    }
+
+    header {
+      background-color: #6EAC88;
+    }
+
+    .cadastro {
+      margin-top: 2rem;
+      color: #165C3C;
+    }
+
+    .form-cadastro {
+      background-color: #6EAC88;
+      padding: 2rem;
+      border-radius: 12px;
+      max-width: 600px;
+      margin: 2rem auto;
+      color: #ffffff;
+    }
+
+    .form-cadastro label {
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
+    .form-cadastro input {
+      margin-bottom: 1rem;
+    }
+
+    .btnvoltar {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      background-color: #11412A;
+      color: #ffffff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+    }
+
+    .btn-cadastrar button {
+      background-color: #11412A;
+      color: #fff;
+      padding: 0.5rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      margin-top: 1rem;
+    }
+
+    .linha {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .linha input {
+      flex: 1;
+    }
+    
+ 
+  </style>
+</head>
+<body>
+    <div class="d-flex">
+      
+
+        <div class="content flex-grow-1">
+            <header class="d-flex justify-content-end align-items-center p-3">
+                <i class="bi bi-gear fs-4 me-3"></i>
+                <i class="bi bi-list fs-4 me-3"></i>
+                <i class="bi bi-box-arrow-right fs-4"></i>
+            </header>
+
+            <div class="container">
+                <h1 class="cadastro">Cadastro de Produtos</h1>
+                <button class="btnvoltar">Voltar</button>
+
+                <form class="form-cadastro">
+                    <div class="linha">
+                        <div class="flex-fill">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" class="form-control">
+                        </div>
+                        <div class="flex-fill">
+                            <label for="descricao">Descrição:</label>
+                            <input type="text" id="descricao" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="linha">
+                        <div class="flex-fill">
+                            <label for="quantidade">Quantidade:</label>
+                            <input type="number" id="quantidade" class="form-control">
+                        </div>
+                        <div class="flex-fill">
+                            <label for="valor">Valor Unitário:</label>
+                            <input type="number" step="0.01" id="valor" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="btn-cadastrar text-end">
+                        <button type="submit">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
+
