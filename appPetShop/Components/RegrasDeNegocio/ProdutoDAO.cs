@@ -1,4 +1,6 @@
 ﻿using appPetShop.Configs;
+using System.Data;
+
 namespace appPetShop.Components.RegrasDeNegocio
 {
     public class ProdutoDAO
@@ -9,6 +11,25 @@ namespace appPetShop.Components.RegrasDeNegocio
             _conexao = conexao;
         }
 
+        public List<Produto> ListarTodos()
+        {
+            var lista = new List<Produto>();
+            var comando = _conexao.CreateCommand("SELECT * FROM produto;");
+            var leitor = comando.ExecuteReader();
+            while (leitor.Read())
+            {
+                var produto = new Produto();
+                produto.Id = leitor.GetInt32("id_pro");
+                produto.Nome = leitor.GetString("nome_pro");
+                produto.Descricao = leitor.GetString("desc_pro");
+                produto.Quantidade = leitor.GetInt32("quant_pro");
+                produto.Valor = leitor.GetDouble("valor_pro");
+
+                lista.Add(produto);
+            }
+
+            return lista;
+        }
         public void Inserir(Produto produto)
         {
             try
