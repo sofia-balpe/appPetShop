@@ -1,5 +1,9 @@
 ﻿@page "/CadastroCliente"
 
+@using appPetShop.Components.RegrasDeNegocio
+@inject ClienteDAO clienteDAO;
+@inject NavigationManager Navigation;
+
 
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -116,48 +120,53 @@
                 <div class="header">
                     <a href="menu"><button class="btn-voltar">Voltar</button></a>
                
-                    <h1>Cadastro de Produtos</h1>
+                    <h1>Cadastro de Clientes</h1>
                 </div>
 
-        <form class="form-cadastro container-fluid">
+          <EditForm Model="_novoCliente" OnSubmit="Salvar">
           <div class="row">
             <div class="col-md-6 mb-3">
-              <input type="text" class="form-control" placeholder="Nome completo">
-            </div>
-            <div class="col-md-6 mb-3">
-              <input type="text" class="form-control" placeholder="CPF">
+                <input @bind-value="_novoCliente!.Nome" type="text" class="form-control" placeholder="Nome completo">
             </div>
 
             <div class="col-md-6 mb-3">
-              <input type="text" class="form-control" placeholder="CEP">
-            </div>
-            <div class="col-md-6 mb-3">
-              <input type="text" class="form-control" placeholder="Bairro">
+                <input @bind-value="_novoCliente!.CPF" type="text" class="form-control" placeholder="CPF">
             </div>
 
             <div class="col-md-6 mb-3">
-              <input type="text" class="form-control" placeholder="Número">
+                <input @bind-value="_novoCliente!.CEP" type="text" class="form-control" placeholder="CEP">
             </div>
             <div class="col-md-6 mb-3">
-              <input type="text" class="form-control" placeholder="Complemento">
-            </div>
-
-            <div class="col-md-6 mb-3">
-              <input type="text" class="form-control" placeholder="Telefone">
-            </div>
-            <div class="col-md-6 mb-3">
-              <input type="email" class="form-control" placeholder="E-Mail">
+                 <input @bind-value="_novoCliente!.Bairro" type="text" class="form-control" placeholder="Bairro">
             </div>
 
             <div class="col-md-6 mb-3">
-              <input type="date" class="form-control" placeholder="Data de nascimento">
+                <input @bind-value="_novoCliente!.NumeroCasa" type="text" class="form-control" placeholder="Número">
+            </div>
+            <div class="col-md-6 mb-3">
+                <input @bind-value="_novoCliente!.Complemento" type="text" class="form-control" placeholder="Complemento">
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <input @bind-value="_novoCliente!.Telefone" type="text" class="form-control" placeholder="Telefone">
+            </div>
+
+            <div class="col-md-6 mb-3">
+                <input @bind-value="_novoCliente!.Email" type="email" class="form-control" placeholder="E-Mail">
+            </div>
+
+            <div class="col-md-6 mb-3">   
+                <input @bind-value="_novoCliente!.DataNasc" type="text" class="form-control" placeholder="Data de nascimento">
             </div>
 
             <div class="col-12 mt-3 text-end">
               <input type="submit" class="btn btn-primary px-4" value="Cadastrar">
             </div>
           </div>
-        </form>
+
+        </EditForm>>
+
+
       </main>
     </div>
   </div>
@@ -167,3 +176,32 @@
 </body>
 
 </html>
+
+
+@code {
+    private string? erro = null;
+
+    [SupplyParameterFromForm]
+    private Cliente? _novoCliente { get; set; } = new();
+
+    private void Salvar()
+    {
+
+        try
+        {
+            if (_novoCliente.Nome is null || _novoCliente.Nome == "")
+            {
+                throw new Exception(message: "O campo nome é obrigatório");
+            }
+
+            clienteDAO.Inserir(_novoCliente);
+
+            Navigation.NavigateTo(uri: "/produtos");
+        }
+        catch (Exception ex)
+        {
+            erro = ex.Message;
+        }
+    }
+}
+

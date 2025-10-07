@@ -1,11 +1,14 @@
 using appPetShop.Components;
+using appPetShop.Components.RegrasDeNegocio;
+using appPetShop.Configs;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
-
+builder.Services.AddScoped<Conexao>();
+builder.Services.AddScoped<ClienteDAO>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
