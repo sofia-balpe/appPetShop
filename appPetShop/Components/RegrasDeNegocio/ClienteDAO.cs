@@ -62,6 +62,24 @@ namespace appPetShop.Components.RegrasDeNegocio
 
             }
         }
+
+        public void Deletar(int id)
+        {
+            try
+            {
+                var comando = _conexao.CreateCommand("Delete from Cliente where id_cli = @_id");
+                comando.Parameters.AddWithValue("@_id", id);
+
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+                throw;
+
+            }
+        }
+
+
     }
 }
 
