@@ -1,5 +1,7 @@
 ﻿@page "/CadastroCliente"
 
+
+
 @using appPetShop.Components.RegrasDeNegocio
 @inject ClienteDAO clienteDAO;
 @inject NavigationManager Navigation;
@@ -123,8 +125,8 @@
                     <h1>Cadastro de Clientes</h1>
                 </div>
 
-
-          <EditForm Model="_novoCliente" OnSubmit="Salvar">
+               
+         <EditForm Model="@_novoCliente" OnValidSubmit="@Salvar">
 
           <div class="row">
             <div class="col-md-6 mb-3">
