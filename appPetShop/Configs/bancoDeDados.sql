@@ -15,4 +15,13 @@ create table Cliente (
     email_cli varchar (100),
     dataNascimento_cli varchar(100)
 );
+
+Create table Produto(
+id_pro int primary key auto_increment,
+nome_pro varchar(200),
+descricao_pro varchar(300),
+quantidade_pro double,
+valor_unitario_pro double);
+
+insert into Produto values (null, 'top', 'top', 5, 5);
 */
