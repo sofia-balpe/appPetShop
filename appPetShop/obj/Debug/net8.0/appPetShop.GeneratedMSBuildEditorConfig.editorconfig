@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYWRhc3Ryb0NsaWVudGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/USUARIO/Documents/2025/IFRO 2025/PDS/appPetShop/appPetShop/Components/Pages/CadastroDePet.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYWRhc3Ryb0RlUGV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/USUARIO/Documents/2025/IFRO 2025/PDS/appPetShop/appPetShop/Components/Pages/CadastroDeProduto.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYWRhc3Ryb0RlUHJvZHV0by5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/USUARIO/Documents/2025/IFRO 2025/PDS/appPetShop/appPetShop/Components/Pages/ListarClientes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0YXJDbGllbnRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USUARIO/Documents/2025/IFRO 2025/PDS/appPetShop/appPetShop/Components/Pages/ListarPets.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0YXJQZXRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/USUARIO/Documents/2025/IFRO 2025/PDS/appPetShop/appPetShop/Components/Pages/ListarProdutos.razor]

@@ -1,0 +1,214 @@
+﻿@page "/CadastroDePet"
+@using appPetShop.Components.RegrasDeNegocio
+@inject PetDAO petDAO
+@inject NavigationManager Navigation;
+
+<h3>Cadastro De Pet</h3>
+
+@if (erro != null)
+{
+    <div class="alert alert-danger">
+        @erro
+    </div>
+}
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap demo</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+<style>
+    :root {
+        --verde-escuro: #165C3C;
+        --verde-medio: #6EAC88;
+        --verde-botao: #11412A;
+        --fundo-claro: #F5F5F5;
+    }
+
+    body {
+        background-color: var(--fundo-claro);
+        margin: 0;
+    }
+
+    .sidebar {
+        width: 250px;
+        background-color: var(--verde-escuro);
+        min-height: 100vh;
+    }
+
+        .sidebar .nav-link {
+            color: white;
+        }
+
+            .sidebar .nav-link.active,
+            .sidebar .nav-link:hover {
+                background-color: var(--verde-botao);
+                color: white;
+            }
+
+    .content {
+        background-color: #6EAC88;
+        min-height: 100vh;
+        padding: 2rem;
+    }
+
+
+    header {
+        background-color: var(--verde-medio);
+        color: #165C3C;
+    }
+
+    .form-cadastro {
+        background-color: var(--verde-medio);
+        border-radius: 15px;
+        padding: 2rem;
+        margin-top: 3rem;
+        max-width: 900px;
+        color: #165C3C;
+    }
+
+        .form-cadastro input::placeholder {
+            color: #165C3C;
+        }
+
+    .btn-primary {
+        background-color: var(--verde-botao);
+        border: none;
+    }
+
+        .btn-primary:hover {
+            background-color: #0d2f1f;
+        }
+
+
+
+
+    .header {
+        display: flex;
+        align-items: center;
+        gap: 15px; /* Espaço entre o título e o botão */
+        margin: 20px 40px;
+    }
+
+        .header h1 {
+            margin: 0;
+            font-size: 35px;
+            font-weight: bold;
+            color: #1a4c33; /* cor igual à segunda página */
+        }
+
+    .btn-voltar {
+        background-color: #0b3d2e;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+</style>
+
+<div class="d-flex" style="background:#f4f4f4">
+
+
+    <div class="content flex-grow-1" style="background:#f4f4f4">
+
+
+        <div class="container">
+            <div class="header">
+                <a href="menu"> <button class="btn-voltar">Voltar</button></a>
+                <h1>Cadastro de Pet</h1>
+            </div>
+
+
+            <EditForm Model="@_novoPet" OnValidSubmit="@Salvar">
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input @bind-value="_novoPet!.Nome" type="text" class="form-control" placeholder="Nome">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <input @bind-value="_novoPet!.Especie" type="text" class="form-control" placeholder="Espécie">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <input @bind-value="_novoPet!.Raca" type="text" class="form-control" placeholder="Raça">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <input @bind-value="_novoPet!.Data_Nascimento" type="text" class="form-control" placeholder="Data de Nascimento">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label>Idade</label>
+                        <input @bind-value="_novoPet!.Idade" type="text" class="form-control" placeholder="Idade">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <input @bind-value="_novoPet!.Porte" type="text" class="form-control" placeholder="Porte">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label>Peso</label>
+                        <input @bind-value="_novoPet!.Peso" type="text" class="form-control" placeholder="Peso">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        
+                        <select @bind="_novoPet!.Id_Cliente" class="form-control">
+                            <option value="">Tutor</option>
+                            @foreach (var cliente in listaClientes)
+                            {
+                                <option value="@cliente.Id">@cliente.Nome</option>
+                            }
+                        </select>
+                    </div>
+
+                    <div class="col-12 mt-3 text-end">
+                        <input type="submit" class="btn btn-primary px-4" value="Cadastrar">
+                    </div>
+                </div>
+
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+@code {
+    private string? erro = null;
+
+    [SupplyParameterFromForm]
+    private Pet? _novoPet { get; set; } = new();
+
+    private List<Cliente> listaClientes = new();
+
+    protected override void OnInitialized()
+    {
+        listaClientes = petDAO.ListarClientes();
+    }
+
+    private void Salvar()
+    {
+
+        try
+        {
+            if (_novoPet.Nome is null || _novoPet.Nome == "")
+            {
+                throw new Exception(message: "O campo nome é obrigatório");
+            }
+
+            petDAO.Inserir(_novoPet);
+
+            Navigation.NavigateTo(uri: "/pet");
+        }
+        catch (Exception ex)
+        {
+            erro = ex.Message;
+        }
+    }
+}
+
