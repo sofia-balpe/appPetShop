@@ -22,7 +22,7 @@ namespace appPetShop.Components.RegrasDeNegocio
                 cliente.Nome = leitor.GetString( "nome_cli");
                 cliente.CPF= leitor.GetString( "cpf_cli");
                 cliente.CEP = leitor.GetString("cep_cli");
-                cliente.Rua = leitor.GetString("rua_cli");
+                cliente.Rua = DAOHelper.GetString(leitor, "rua_cli");
                 cliente.Bairro = leitor.GetString("bairro_cli");
                 cliente.NumeroCasa = leitor.GetString("numero_cli");
                 cliente.Complemento = leitor.GetString("complemento_cli");
@@ -67,7 +67,7 @@ namespace appPetShop.Components.RegrasDeNegocio
         {
             try
             {
-                var comando = _conexao.CreateCommand("DELETE FROM Cliente WHERE id_cli = @_id");
+                var comando = _conexao.CreateCommand("DELETE FROM cliente WHERE id_cli = @_id");
                 comando.Parameters.AddWithValue("@_id", id);
                 comando.ExecuteNonQuery();
             }

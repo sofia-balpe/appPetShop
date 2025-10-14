@@ -1,6 +1,6 @@
 using MySql.Data.MySqlClient;
 
-namespace AppWeb.Configs
+namespace appPetShop.Configs
 {
     public static class DAOHelper
     {

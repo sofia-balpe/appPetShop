@@ -1,10 +1,9 @@
 ﻿@page "/CadastroCliente"
 
 @using appPetShop.Components.RegrasDeNegocio
-@inject ClienteDAO clienteDAO;
-@inject NavigationManager Navigation;
-
-
+@inject ClienteDAO clienteDAO
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
 
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -118,7 +117,7 @@
                 </div>
 
                
-         <EditForm Model="@_novoCliente" OnValidSubmit="@Salvar">
+         <EditForm Model="_novoCliente" OnSubmit="Salvar">
 
           <div class="row">
             <div class="col-md-6 mb-3">
@@ -132,6 +131,11 @@
             <div class="col-md-6 mb-3">
                 <input @bind-value="_novoCliente!.CEP" type="text" class="form-control" placeholder="CEP">
             </div>
+
+            <div class="col-md-6 mb-3">
+                 <input @bind-value="_novoCliente!.Rua" type="text" class="form-control" placeholder="Rua">
+            </div>
+
             <div class="col-md-6 mb-3">
                  <input @bind-value="_novoCliente!.Bairro" type="text" class="form-control" placeholder="Bairro">
             </div>
@@ -161,7 +165,7 @@
             </div>
           </div>
 
-        </EditForm>>
+        </EditForm>
 
 
       </main>
@@ -184,14 +188,9 @@
 
         try
         {
-            if (_novoCliente.Nome is null || _novoCliente.Nome == "")
-            {
-                throw new Exception(message: "O campo nome é obrigatório");
-            }
-
             clienteDAO.Inserir(_novoCliente);
 
-            Navigation.NavigateTo(uri: "/clientes");
+            Navigation.NavigateTo("/ListarClientes");
         }
         catch (Exception ex)
         {

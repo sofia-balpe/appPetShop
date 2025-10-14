@@ -1,7 +1,8 @@
 ﻿@page "/CadastroDePet"
 @using appPetShop.Components.RegrasDeNegocio
 @inject PetDAO petDAO
-@inject NavigationManager Navigation;
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
 
 <h3>Cadastro De Pet</h3>
 
@@ -121,7 +122,7 @@
             </div>
 
 
-            <EditForm Model="@_novoPet" OnValidSubmit="@Salvar">
+            <EditForm Model="_novoPet" OnSubmit="Salvar">
 
                 <div class="row">
                     <div class="col-md-6 mb-3">
@@ -154,7 +155,7 @@
                     </div>
 
                     <div class="col-md-6 mb-3">
-                        
+                        <label>Tutor</label>
                         <select @bind="_novoPet!.Id_Cliente" class="form-control">
                             <option value="">Tutor</option>
                             @foreach (var cliente in listaClientes)
@@ -196,14 +197,10 @@
 
         try
         {
-            if (_novoPet.Nome is null || _novoPet.Nome == "")
-            {
-                throw new Exception(message: "O campo nome é obrigatório");
-            }
 
             petDAO.Inserir(_novoPet);
 
-            Navigation.NavigateTo(uri: "/pet");
+            Navigation.NavigateTo("/ListarPets");
         }
         catch (Exception ex)
         {

@@ -34,7 +34,7 @@ namespace appPetShop.Components.RegrasDeNegocio
         {
             try
             {
-                var comando = _conexao.CreateCommand("INSERT INTO produto VALUES (null, null, @_nome, @_descricao, @_qtd, @_preco)");
+                var comando = _conexao.CreateCommand("INSERT INTO produto VALUES (null, @_nome, @_descricao, @_qtd, @_preco)");
 
                 comando.Parameters.AddWithValue("@_nome", produto.Nome);
                 comando.Parameters.AddWithValue("@_descricao", produto.Descricao);

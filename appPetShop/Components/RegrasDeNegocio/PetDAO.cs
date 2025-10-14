@@ -16,7 +16,7 @@ namespace appPetShop.Components.RegrasDeNegocio
         {
             var lista = new List<Pet>();
             var comando = _conexao.CreateCommand(@"SELECT p.id_pet, p.nome_pet, p.especie_pet, p.raca_pet, p.data_nascimento_pet, p.idade_pet, p.porte_pet, p.peso_pet, p.id_cli_fk, c.nome_cli
-                                                 FROM Pet AS p JOIN Cliente AS c ON p.id_cli_fk = c.id_cli;");
+                                                 FROM pet AS p JOIN cliente AS c ON p.id_cli_fk = c.id_cli;");
             var leitor = comando.ExecuteReader();
             while (leitor.Read())
             {
@@ -40,7 +40,7 @@ namespace appPetShop.Components.RegrasDeNegocio
         public List<Cliente> ListarClientes()
         {
             var lista = new List<Cliente>();
-            var comando = _conexao.CreateCommand("SELECT id_cli, nome_cli FROM Cliente");
+            var comando = _conexao.CreateCommand("SELECT id_cli, nome_cli FROM cliente");
 
             var leitor = comando.ExecuteReader();
 
@@ -62,13 +62,13 @@ namespace appPetShop.Components.RegrasDeNegocio
                 var comando = _conexao.CreateCommand("INSERT INTO pet VALUES (null, @_nome, @_especie, @_raca, @_dataNasc, @_idade, @_porte, @_peso, @_idCli)");
 
                 comando.Parameters.AddWithValue("@_nome", pet.Nome);
-                comando.Parameters.AddWithValue("@_descricao", pet.Especie);
-                comando.Parameters.AddWithValue("@_qtd", pet.Raca);
-                comando.Parameters.AddWithValue("@_preco", pet.Data_Nascimento);
-                comando.Parameters.AddWithValue("@_preco", pet.Idade);
-                comando.Parameters.AddWithValue("@_preco", pet.Porte);
-                comando.Parameters.AddWithValue("@_preco", pet.Peso);
-                comando.Parameters.AddWithValue("@_preco", pet.Id_Cliente);
+                comando.Parameters.AddWithValue("@_especie", pet.Especie);
+                comando.Parameters.AddWithValue("@_raca", pet.Raca);
+                comando.Parameters.AddWithValue("@_dataNasc", pet.Data_Nascimento);
+                comando.Parameters.AddWithValue("@_idade", pet.Idade);
+                comando.Parameters.AddWithValue("@_porte", pet.Porte);
+                comando.Parameters.AddWithValue("@_peso", pet.Peso);
+                comando.Parameters.AddWithValue("@_idCli", pet.Id_Cliente);
 
                 comando.ExecuteNonQuery();
             }

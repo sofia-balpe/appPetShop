@@ -124,8 +124,8 @@
                                 <td>@cliente.Telefone</td>
                                 <td>@cliente.Email</td>
                                 <td>@cliente.DataNasc</td>
+                                <td><button class="btn btn-edit me-2" @onclick="() => Editar(cliente.Id)">Editar</button></td>
                                 <td><button class="btn btn-delete" @onclick="() => DeletarCliente(cliente.Id)">Deletar</button></td>
-                                <td><button class="btn btn-edit" @onclick="() => Editar(cliente.Id)">Editar</button></td>                               
                             </tr>
 
                             contador++;
@@ -146,6 +146,7 @@
 
         private void DeletarCliente(int id)
         {
+        
             clienteDao.Deletar(id);
             CarregarClientes();
             StateHasChanged();

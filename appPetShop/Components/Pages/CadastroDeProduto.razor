@@ -1,8 +1,9 @@
 ﻿@page "/CadastroDeProduto"
 @using appPetShop.Components.RegrasDeNegocio
 @using appPetShop.Configs
-@inject ProdutoDAO produtoDAO;
-@inject NavigationManager Navigation;
+@inject ProdutoDAO produtoDAO
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
 
 @if (erro != null)
 {
@@ -121,7 +122,7 @@
                 </div>
 
 
-            <EditForm Model="@_novoProduto" OnValidSubmit="@Salvar">
+            <EditForm Model="_novoProduto" OnSubmit="Salvar">
 
                 <div class="row">
                     <div class="col-md-6 mb-3">
@@ -166,14 +167,9 @@
 
         try
         {
-            if (_novoProduto.Nome is null || _novoProduto.Nome == "")
-            {
-                throw new Exception(message: "O campo nome é obrigatório");
-            }
-
             produtoDAO.Inserir(_novoProduto);
 
-            Navigation.NavigateTo(uri: "/produtos");
+            Navigation.NavigateTo(uri: "/ListarProdutos");
         }
         catch (Exception ex)
         {
