@@ -1,0 +1,85 @@
+﻿@page "/EditarPet/{id:int}"
+@using appPetShop.Components.RegrasDeNegocio
+@inject Pet petDao
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
+@* 
+<h3>Editar Pet</h3>
+
+   @if (pet == null)
+   {
+       <p>Carregando dados...</p>
+   }
+   else
+   {
+       <EditForm Model="pet" OnValidSubmit="Salvar">
+
+           <div class="mb-3">
+               <label>Nome:</label>
+               <InputText @bind-Value="pet.Nome" class="form-control" />
+           </div>
+
+           <div class="mb-3">
+               <label>Espécie</label>
+               <InputText @bind-Value="pet.Especie" class="form-control" />
+           </div>
+
+           <div class="mb-3">
+               <label>Raça</label>
+               <InputText @bind-Value="pet.Raca" class="form-control" />
+           </div>
+
+           <div class="mb-3">
+               <label>Data de Nascimento:</label>
+               <InputText @bind-Value="pet.Data_Nascimento" class="form-control" />
+           </div>
+
+           <div class="mb-3">
+               <label>Idade:</label>
+               <InputText @bind-Value="pet.Idade" class="form-control" />
+           </div>
+
+           <div class="mb-3">
+               <label>Porte:</label>
+               <InputText @bind-Value="pet.Porte" class="form-control" />
+           </div>
+
+           <div class="mb-3">
+               <label>Peso:</label>
+               <InputText @bind-Value="pet.Peso" class="form-control" />
+           </div>
+
+           <div class="mb-3">
+               <label>Tutor:</label>
+               <InputText @bind-Value="pet.Id_Cliente" class="form-control" />
+           </div>
+
+        
+           <button type="submit" class="btn btn-success">Salvar Alterações</button>
+           <button type="button" class="btn btn-secondary ms-2" @onclick="Voltar">Cancelar</button>
+       </EditForm>
+   }
+
+   @code {
+       [Parameter] public int id { get; set; }
+
+       private Pet? pet;
+
+       protected override void OnInitialized()
+       {
+           var lista = petDao.ListarTodos();
+           pet = lista.FirstOrDefault(c => c.Id == id);
+       }
+
+       private void Salvar()
+       {
+           petDao.Atualizar(pet);
+           Navigation.NavigateTo("/ListarPets");
+
+       }
+
+       private void Voltar()
+       {
+           Navigation.NavigateTo("/ListarPets");
+       }
+   } *@

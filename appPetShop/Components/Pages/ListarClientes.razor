@@ -1,7 +1,8 @@
 ﻿@page "/ListarClientes"
 @using appPetShop.Components.RegrasDeNegocio
 @inject ClienteDAO clienteDao
-@inject NavigationManager Navigation;
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
 <h3>Lista de Clientes</h3>
 
 
@@ -124,8 +125,8 @@
                                 <td>@cliente.Telefone</td>
                                 <td>@cliente.Email</td>
                                 <td>@cliente.DataNasc</td>
-                                <td><button class="btn btn-edit me-2" @onclick="() => Editar(cliente.Id)">Editar</button></td>
-                                <td><button class="btn btn-delete" @onclick="() => DeletarCliente(cliente.Id)">Deletar</button></td>
+                                <td><button class="btn btn-edit me-2" @onclick="() => Editar(cliente.Id)">Editar</button><button class="btn btn-delete" @onclick="() => DeletarCliente(cliente.Id)">Deletar</button></td>
+                              
                             </tr>
 
                             contador++;
