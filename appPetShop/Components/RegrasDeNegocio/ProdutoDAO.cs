@@ -21,9 +21,9 @@ namespace appPetShop.Components.RegrasDeNegocio
                 var produto = new Produto();
                 produto.Id = leitor.GetInt32("id_pro");
                 produto.Nome = leitor.GetString("nome_pro");
-                produto.Descricao = leitor.GetString("desc_pro");
-                produto.Quantidade = leitor.GetInt32("quant_pro");
-                produto.Valor = leitor.GetDouble("valor_pro");
+                produto.Descricao = leitor.GetString("descricao_pro");
+                produto.Quantidade = leitor.GetInt32("quantidade_pro");
+                produto.Valor = leitor.GetDouble("valor_unitario_pro");
 
                 lista.Add(produto);
             }
@@ -49,5 +49,21 @@ namespace appPetShop.Components.RegrasDeNegocio
 
             }
         }
+
+        public void Deletar(int id)
+        {
+            try
+            {
+                var comando = _conexao.CreateCommand("DELETE FROM Produto WHERE id_cli = @_id");
+                comando.Parameters.AddWithValue("@_id", id);
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao deletar produto: " + ex.Message);
+            }
+
+        }
+
     }
 }

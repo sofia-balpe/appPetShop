@@ -40,7 +40,7 @@ namespace appPetShop.Components.RegrasDeNegocio
         {
             try
             {
-                var comando = _conexao.CreateCommand("INSERT INTO produto VALUES (null, @_nome, @_cpf, @_cep, @_rua,  @_bairro,  @_numero,  @_complemento,  @_telefone,  @_email,  @_dataNascimento)");
+                var comando = _conexao.CreateCommand("INSERT INTO cliente VALUES (null, @_nome, @_cpf, @_cep, @_rua,  @_bairro,  @_numero,  @_complemento,  @_telefone,  @_email,  @_dataNascimento)");
 
                 comando.Parameters.AddWithValue("@_nome", cliente.Nome);
                 comando.Parameters.AddWithValue("@_cpf", cliente.CPF);
@@ -67,16 +67,15 @@ namespace appPetShop.Components.RegrasDeNegocio
         {
             try
             {
-                var comando = _conexao.CreateCommand("Delete from Cliente where id_cli = @_id");
+                var comando = _conexao.CreateCommand("DELETE FROM Cliente WHERE id_cli = @_id");
                 comando.Parameters.AddWithValue("@_id", id);
-
                 comando.ExecuteNonQuery();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw;
-
+                throw new Exception("Erro ao deletar cliente: " + ex.Message);
             }
+
         }
 
 

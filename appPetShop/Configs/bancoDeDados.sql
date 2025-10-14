@@ -15,4 +15,29 @@ create table Cliente (
     email_cli varchar (100),
     dataNascimento_cli varchar(100)
 );
+
+Create table Produto(
+id_pro int primary key auto_increment,
+nome_pro varchar(200),
+descricao_pro varchar(300),
+quantidade_pro double,
+valor_unitario_pro double);
+
+insert into Produto values (null, 'top', 'top', 5, 5);
+
+
+
+Create table Pet(
+id_pet int primary key auto_increment,
+nome_pet varchar(200),
+especie_pet varchar(200),
+raca_pet varchar(200),
+data_nascimento_pet varchar(100),
+idade_pet double,
+porte_pet varchar(200),
+peso_pet double,
+id_cli_fk int not null
+);
+alter table Pet add foreign Key (id_cli_fk) references cliente(id_cli);
+
 */

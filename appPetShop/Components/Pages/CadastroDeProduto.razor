@@ -11,113 +11,103 @@
     </div>
 }
 
-<html lang="en">
-<head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-      <style>
+     
+    <style>
+    :root {
+        --verde-escuro: #165C3C;
+        --verde-medio: #6EAC88;
+        --verde-botao: #11412A;
+        --fundo-claro: #F5F5F5;
+    }
+
     body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      
+        background-color: var(--fundo-claro);
+        margin: 0;
     }
 
-
-    .sidebar .nav-link {
-      color: white;
+    .sidebar {
+        width: 250px;
+        background-color: var(--verde-escuro);
+        min-height: 100vh;
     }
 
-    .sidebar .nav-link:hover {
-      background-color: #165C3C;
+        .sidebar .nav-link {
+            color: white;
+        }
+
+            .sidebar .nav-link.active,
+            .sidebar .nav-link:hover {
+                background-color: var(--verde-botao);
+                color: white;
+            }
+
+    .content {
+        background-color: #6EAC88;
+        min-height: 100vh;
+        padding: 2rem;
     }
 
-    .logo-top {
-      width: 100%;
-      max-width: 150px;
-      margin-bottom: 2rem;
-    }
-
-   .content {
-     background-color: #6EAC88;
-     min-height: 100vh;
-     padding: 2rem;
-    }
 
     header {
-      background-color: #6EAC88;
-    }
-
-    .cadastro {
-      margin-top: 2rem;
-      color: #165C3C;
+        background-color: var(--verde-medio);
+        color: #165C3C;
     }
 
     .form-cadastro {
-      background-color: #6EAC88;
-      padding: 2rem;
-      border-radius: 12px;
-      max-width: 600px;
-      margin: 2rem auto;
-      color: #165C3C;
+        background-color: var(--verde-medio);
+        border-radius: 15px;
+        padding: 2rem;
+        margin-top: 3rem;
+        max-width: 900px;
+        color: #165C3C;
     }
 
-    .form-cadastro label {
-      font-weight: bold;
-      margin-top: 1rem;
-    }
-
-    .form-cadastro input {
-      margin-bottom: 1rem;
-    }
-
-    .btn-cadastrar button {
-      background-color: #11412A;
-      color: #fff;
-      padding: 0.5rem 1.5rem;
-      border: none;
-      border-radius: 5px;
-      margin-top: 1rem;
-    }
-
-    .linha {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-    }
-
-    .linha input {
-      flex: 1;
-    }
-
-        .header {
-            display: flex;
-            align-items: center;
-            gap: 20px; /* Espaço entre o título e o botão */
-            margin: 20px;
+        .form-cadastro input::placeholder {
+            color: #165C3C;
         }
 
-            .header h1 {
-                margin: 0;
-                font-size: 35px;
-                font-weight: bold;
-                color: #1a4c33; /* cor igual à segunda página */
-            }
+    .btn-primary {
+        background-color: var(--verde-botao);
+        border: none;
+    }
 
-        .btn-voltar {
-            background-color: #0b3d2e;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            border-radius: 5px;
+        .btn-primary:hover {
+            background-color: #0d2f1f;
         }
-    
+
+
+
+
+    .header {
+        display: flex;
+        align-items: center;
+        gap: 15px; /* Espaço entre o título e o botão */
+        margin: 20px 40px;
+    }
+
+        .header h1 {
+            margin: 0;
+            font-size: 35px;
+            font-weight: bold;
+            color: #1a4c33; /* cor igual à segunda página */
+        }
+
+    .btn-voltar {
+        background-color: #0b3d2e;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
  
   </style>
-</head>
-<body >
+
     <div class="d-flex" style="background:#f4f4f4">
       
 
@@ -129,43 +119,41 @@
                     <a href="menu"> <button class="btn-voltar">Voltar</button></a>
                     <h1>Cadastro de Produtos</h1>
                 </div>
-                
 
-                <form class="form-cadastro">
-                    <div class="linha">
-                        <div class="flex-fill">
-                            <label for="nome">Nome:</label>
-                            <input type="text" id="nome" class="form-control">
-                        </div>
-                        <div class="flex-fill">
-                            <label for="descricao">Descrição:</label>
-                            <input type="text" id="descricao" class="form-control">
-                        </div>
+
+            <EditForm Model="@_novoProduto" OnValidSubmit="@Salvar">
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <input @bind-value="_novoProduto!.Nome" type="text" class="form-control" placeholder="Nome">
                     </div>
 
-                    <div class="linha">
-                        <div class="flex-fill">
-                            <label for="quantidade">Quantidade:</label>
-                            <input type="number" id="quantidade" class="form-control">
-                        </div>
-                        <div class="flex-fill">
-                            <label for="valor">Valor Unitário:</label>
-                            <input type="number" step="0.01" id="valor" class="form-control">
-                        </div>
+                    <div class="col-md-6 mb-3">
+                        <input @bind-value="_novoProduto!.Descricao" type="text" class="form-control" placeholder="Descrição">
                     </div>
 
-                    <div class="btn-cadastrar text-end">
-                        <button type="submit">Cadastrar</button>
+                    <div class="col-md-6 mb-3">
+                        <label>Quantidade</label>
+                        <input @bind-value="_novoProduto!.Quantidade" type="text" class="form-control" placeholder="Quantidade">
                     </div>
-                </form>
+                    <div class="col-md-6 mb-3">
+                        <label>Valor Unitário</label>
+                        <input @bind-value="_novoProduto!.Valor" type="text" class="form-control" placeholder="Valor Unitário">
+                    </div>
+
+                    <div class="col-12 mt-3 text-end">
+                        <input type="submit" class="btn btn-primary px-4" value="Cadastrar">
+                    </div>
+                </div>
+
+            </EditForm>
             </div>
         </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-</body>
-</html>
+
 
 @code {
     private string? erro = null;
