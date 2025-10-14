@@ -78,6 +78,46 @@ namespace appPetShop.Components.RegrasDeNegocio
 
         }
 
+        public void Atualizar(Cliente cliente)
+        {
+            try
+            {
+                var comando = _conexao.CreateCommand(@"
+                    UPDATE cliente 
+                    SET 
+                    nome_cli = @_nome,
+                    cpf_cli = @_cpf,
+                    cep_cli = @_cep,
+                    rua_cli = @_rua,
+                    bairro_cli = @_bairro,
+                    numero_cli = @_numero,
+                    complemento_cli = @_complemento,
+                    telefone_cli = @_telefone,
+                    email_cli = @_email,
+                    dataNascimento_cli = @_dataNascimento
+                    WHERE id_cli = @_id;
+                ");
+
+                comando.Parameters.AddWithValue("@_id", cliente.Id);
+                comando.Parameters.AddWithValue("@_nome", cliente.Nome);
+                comando.Parameters.AddWithValue("@_cpf", cliente.CPF);
+                comando.Parameters.AddWithValue("@_cep", cliente.CEP);
+                comando.Parameters.AddWithValue("@_rua", cliente.Rua);
+                comando.Parameters.AddWithValue("@_bairro", cliente.Bairro);
+                comando.Parameters.AddWithValue("@_numero", cliente.NumeroCasa);
+                comando.Parameters.AddWithValue("@_complemento", cliente.Complemento);
+                comando.Parameters.AddWithValue("@_telefone", cliente.Telefone);
+                comando.Parameters.AddWithValue("@_email", cliente.Email);
+                comando.Parameters.AddWithValue("@_dataNascimento", cliente.DataNasc);
+
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao atualizar cliente: " + ex.Message);
+            }
+        }
+
 
     }
 }

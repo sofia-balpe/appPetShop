@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IFS0Ov3L0s25LRKbX/Sb3ruFZmuvOA8PTu1rrzcSZW8=",
+  "Hash": "hxdTZLU+jyO0LKVUfZv7u/DYg7InL5/QHsaSrXSVVeU=",
   "Source": "appPetShop",
   "BasePath": "_content/appPetShop",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "appPetShop\\wwwroot",
       "Source": "appPetShop",
-      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\",
       "BasePath": "_content/appPetShop",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\appPetShop.styles.css",
+      "Identity": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\appPetShop.styles.css",
       "SourceId": "appPetShop",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/appPetShop",
       "RelativePath": "appPetShop.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\appPetShop.styles.css"
+      "OriginalItemSpec": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\obj\\Debug\\net8.0\\scopedcss\\bundle\\appPetShop.styles.css"
     },
     {
-      "Identity": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\appPetShop.bundle.scp.css",
+      "Identity": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\appPetShop.bundle.scp.css",
       "SourceId": "appPetShop",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/appPetShop",
       "RelativePath": "appPetShop.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\appPetShop.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\appPetShop.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\app.css",
       "SourceId": "appPetShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\",
       "BasePath": "_content/appPetShop",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "appPetShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\",
       "BasePath": "_content/appPetShop",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "appPetShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\",
       "BasePath": "_content/appPetShop",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\favicon.png",
       "SourceId": "appPetShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\",
       "BasePath": "_content/appPetShop",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\ossao.png",
+      "Identity": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\ossao.png",
       "SourceId": "appPetShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\",
       "BasePath": "_content/appPetShop",
       "RelativePath": "ossao.png",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\ossao.png"
     },
     {
-      "Identity": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\ossinho.png",
+      "Identity": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\ossinho.png",
       "SourceId": "appPetShop",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USUARIO\\Documents\\2025\\IFRO 2025\\PDS\\appPetShop\\appPetShop\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\",
       "BasePath": "_content/appPetShop",
       "RelativePath": "ossinho.png",
       "AssetKind": "All",

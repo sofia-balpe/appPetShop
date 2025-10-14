@@ -1,0 +1,92 @@
+﻿@page "/EditarCliente/{id:int}"
+@using appPetShop.Components.RegrasDeNegocio
+@inject ClienteDAO clienteDao
+@inject NavigationManager Navigation
+
+<h3>Editar Cliente</h3>
+
+@if (cliente == null)
+{
+    <p>Carregando dados...</p>
+}
+else
+{
+    <EditForm Model="cliente" OnValidSubmit="Salvar">
+        <div class="mb-3">
+            <label>Nome:</label>
+            <InputText @bind-Value="cliente.Nome" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>CPF:</label>
+            <InputText @bind-Value="cliente.CPF" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>CEP:</label>
+            <InputText @bind-Value="cliente.CEP" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Rua:</label>
+            <InputText @bind-Value="cliente.Rua" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Bairro:</label>
+            <InputText @bind-Value="cliente.Bairro" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Número:</label>
+            <InputText @bind-Value="cliente.NumeroCasa" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Complemento:</label>
+            <InputText @bind-Value="cliente.Complemento" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Telefone:</label>
+            <InputText @bind-Value="cliente.Telefone" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Email:</label>
+            <InputText @bind-Value="cliente.Email" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Data de Nascimento:</label>
+            <InputText @bind-Value="cliente.DataNasc" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Salvar Alterações</button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="Voltar">Cancelar</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter] public int id { get; set; }
+
+    private Cliente? cliente;
+
+    protected override void OnInitialized()
+    {
+        var lista = clienteDao.ListarTodos();
+        cliente = lista.FirstOrDefault(c => c.Id == id);
+    }
+
+    private void Salvar()
+    {
+        clienteDao.Atualizar(cliente);
+        Navigation.NavigateTo("/ListarClientes");
+        Voltar();
+    }
+
+    private void Voltar()
+    {
+        Navigation.NavigateTo("/ListarClientes");
+    }
+}
