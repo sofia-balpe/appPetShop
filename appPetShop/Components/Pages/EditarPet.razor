@@ -1,9 +1,9 @@
 ﻿@page "/EditarPet/{id:int}"
 @using appPetShop.Components.RegrasDeNegocio
-@inject Pet petDao
+@inject PetDAO petDao
 @inject NavigationManager Navigation
 @rendermode InteractiveServer
-@* 
+
 <h3>Editar Pet</h3>
 
    @if (pet == null)
@@ -12,74 +12,78 @@
    }
    else
    {
-       <EditForm Model="pet" OnValidSubmit="Salvar">
+       <EditForm Model="pet" OnSubmit="Salvar">
 
-           <div class="mb-3">
-               <label>Nome:</label>
-               <InputText @bind-Value="pet.Nome" class="form-control" />
-           </div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <input @bind-value="pet!.Nome" type="text" class="form-control" placeholder="Nome">
+            </div>
 
-           <div class="mb-3">
-               <label>Espécie</label>
-               <InputText @bind-Value="pet.Especie" class="form-control" />
-           </div>
+            <div class="col-md-6 mb-3">
+                <input @bind-value="pet!.Especie" type="text" class="form-control" placeholder="Espécie">
+            </div>
 
-           <div class="mb-3">
-               <label>Raça</label>
-               <InputText @bind-Value="pet.Raca" class="form-control" />
-           </div>
+            <div class="col-md-6 mb-3">
+                <input @bind-value="pet!.Raca" type="text" class="form-control" placeholder="Raça">
+            </div>
+            <div class="col-md-6 mb-3">
+                <input @bind-value="pet!.Data_Nascimento" type="text" class="form-control" placeholder="Data de Nascimento">
+            </div>
 
-           <div class="mb-3">
-               <label>Data de Nascimento:</label>
-               <InputText @bind-Value="pet.Data_Nascimento" class="form-control" />
-           </div>
+            <div class="col-md-6 mb-3">
+                <label>Idade</label>
+                <input @bind-value="pet!.Idade" type="text" class="form-control" placeholder="Idade">
+            </div>
 
-           <div class="mb-3">
-               <label>Idade:</label>
-               <InputText @bind-Value="pet.Idade" class="form-control" />
-           </div>
+            <div class="col-md-6 mb-3">
+                <input @bind-value="pet!.Porte" type="text" class="form-control" placeholder="Porte">
+            </div>
 
-           <div class="mb-3">
-               <label>Porte:</label>
-               <InputText @bind-Value="pet.Porte" class="form-control" />
-           </div>
+            <div class="col-md-6 mb-3">
+                <label>Peso</label>
+                <input @bind-value="pet!.Peso" type="text" class="form-control" placeholder="Peso">
+            </div>
 
-           <div class="mb-3">
-               <label>Peso:</label>
-               <InputText @bind-Value="pet.Peso" class="form-control" />
-           </div>
+            <div class="col-md-6 mb-3">
+                <label>Tutor</label>
+                <select @bind="pet!.Id_Cliente" class="form-control">
+                    <option value="">Tutor</option>
+                    @foreach (var cliente in listaClientes)
+                    {
+                        <option value="@cliente.Id">@cliente.Nome</option>
+                    }
+                </select>
+            </div>
 
-           <div class="mb-3">
-               <label>Tutor:</label>
-               <InputText @bind-Value="pet.Id_Cliente" class="form-control" />
-           </div>
-
-        
-           <button type="submit" class="btn btn-success">Salvar Alterações</button>
-           <button type="button" class="btn btn-secondary ms-2" @onclick="Voltar">Cancelar</button>
+            <div class="col-12 mt-3 text-end">
+                <input type="submit" class="btn btn-primary px-4" value="Editar">
+            </div>
+        </div>
+           
        </EditForm>
    }
 
    @code {
-       [Parameter] public int id { get; set; }
+    [Parameter] public int id { get; set; }
 
-       private Pet? pet;
+    private Pet? pet;
+    private List<Cliente> listaClientes = new();
 
-       protected override void OnInitialized()
-       {
-           var lista = petDao.ListarTodos();
-           pet = lista.FirstOrDefault(c => c.Id == id);
-       }
+    protected override async Task OnInitializedAsync()
+    {
+        listaClientes = petDao.ListarClientes();
+        var lista = petDao.ListarTodos();
+        pet = lista.FirstOrDefault(c => c.Id == id);
+    }
 
-       private void Salvar()
-       {
-           petDao.Atualizar(pet);
-           Navigation.NavigateTo("/ListarPets");
+    private void Salvar()
+    {
+        petDao.Atualizar(pet);
+        Navigation.NavigateTo("/ListarPets");
+    }
 
-       }
-
-       private void Voltar()
-       {
-           Navigation.NavigateTo("/ListarPets");
-       }
-   } *@
+    private void Voltar()
+    {
+        Navigation.NavigateTo("/ListarPets");
+    }
+   } 

@@ -54,7 +54,7 @@ namespace appPetShop.Components.RegrasDeNegocio
         {
             try
             {
-                var comando = _conexao.CreateCommand("DELETE FROM Produto WHERE id_cli = @_id");
+                var comando = _conexao.CreateCommand("DELETE FROM Produto WHERE id_pro = @_id");
                 comando.Parameters.AddWithValue("@_id", id);
                 comando.ExecuteNonQuery();
             }
@@ -63,6 +63,27 @@ namespace appPetShop.Components.RegrasDeNegocio
                 throw new Exception("Erro ao deletar produto: " + ex.Message);
             }
 
+        }
+
+
+        public void Editar(Produto produto)
+        {
+            try
+            {
+                var comando = _conexao.CreateCommand(@"UPDATE produto SET nome_pro = @_nome, descricao_pro = @_descricao, quantidade_pro = @_qtd, valor_unitario_pro = @_preco WHERE id_pro = @_id");
+
+                comando.Parameters.AddWithValue("@_nome", produto.Nome);
+                comando.Parameters.AddWithValue("@_descricao", produto.Descricao);
+                comando.Parameters.AddWithValue("@_qtd", produto.Quantidade);
+                comando.Parameters.AddWithValue("@_preco", produto.Valor);
+                comando.Parameters.AddWithValue("@_id", produto.Id);
+
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao atualizar produto: " + ex.Message);
+            }
         }
 
     }

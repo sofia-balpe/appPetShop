@@ -2,6 +2,8 @@
 
 @using appPetShop.Components.RegrasDeNegocio
 @inject PetDAO petDAO
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
 
 <h3>Lista de Pets</h3>
 
@@ -117,7 +119,7 @@
                     <td>@pet.Porte</td>
                     <td>@pet.Peso</td>
                     <td>@pet.NomeCliente</td>
-                    <td><button class="btn btn-delete" @onclick="() => DeletarProduto(pet.Id)">Deletar</button></td>
+                    <td><button class="btn btn-edit me-2" @onclick="() =>Editar(pet.Id)">Editar</button>  <button class="btn btn-delete" @onclick="() => Deletar(pet.Id)">Deletar</button></td>
                 </tr>
 
                 contador++;
@@ -136,11 +138,16 @@
         listaPets = petDAO.ListarTodos();
     }
 
-    private void DeletarProduto(int id)
+    private void Deletar(int id)
     {
        petDAO.Deletar(id);
         CarregarProdutos();
         StateHasChanged();
+    }
+
+    private void Editar(int id)
+    {
+        Navigation.NavigateTo($"/EditarPet/{id}");
     }
 }
 

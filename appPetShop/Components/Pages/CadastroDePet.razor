@@ -4,7 +4,6 @@
 @inject NavigationManager Navigation
 @rendermode InteractiveServer
 
-<h3>Cadastro De Pet</h3>
 
 @if (erro != null)
 {
@@ -83,8 +82,6 @@
         }
 
 
-
-
     .header {
         display: flex;
         align-items: center;
@@ -104,6 +101,7 @@
         color: white;
         border: none;
         padding: 10px 20px;
+        margin-left: -40px;
         cursor: pointer;
         border-radius: 5px;
     }
@@ -126,32 +124,37 @@
 
                 <div class="row">
                     <div class="col-md-6 mb-3">
-                        <input @bind-value="_novoPet!.Nome" type="text" class="form-control" placeholder="Nome">
+                        <label>Nome</label>
+                        <input @bind-value="_novoPet!.Nome" type="text" class="form-control">
                     </div>
 
                     <div class="col-md-6 mb-3">
-                        <input @bind-value="_novoPet!.Especie" type="text" class="form-control" placeholder="Espécie">
+                        <label>Espécie</label>
+                        <input @bind-value="_novoPet!.Especie" type="text" class="form-control">
                     </div>
 
                     <div class="col-md-6 mb-3">
-                        <input @bind-value="_novoPet!.Raca" type="text" class="form-control" placeholder="Raça">
+                        <label>Raça</label>
+                        <input @bind-value="_novoPet!.Raca" type="text" class="form-control" >
                     </div>
                     <div class="col-md-6 mb-3">
-                        <input @bind-value="_novoPet!.Data_Nascimento" type="text" class="form-control" placeholder="Data de Nascimento">
+                        <label>Data nascimento</label>
+                        <input @bind-value="_novoPet!.Data_Nascimento" type="text" class="form-control">
                     </div>
 
                     <div class="col-md-6 mb-3">
                         <label>Idade</label>
-                        <input @bind-value="_novoPet!.Idade" type="text" class="form-control" placeholder="Idade">
+                        <input @bind-value="_novoPet!.Idade" type="text" class="form-control">
                     </div>
 
                     <div class="col-md-6 mb-3">
-                        <input @bind-value="_novoPet!.Porte" type="text" class="form-control" placeholder="Porte">
+                        <label>Porte</label>
+                        <input @bind-value="_novoPet!.Porte" type="text" class="form-control">
                     </div>
 
                     <div class="col-md-6 mb-3">
                         <label>Peso</label>
-                        <input @bind-value="_novoPet!.Peso" type="text" class="form-control" placeholder="Peso">
+                        <input @bind-value="_novoPet!.Peso" type="text" class="form-control">
                     </div>
 
                     <div class="col-md-6 mb-3">

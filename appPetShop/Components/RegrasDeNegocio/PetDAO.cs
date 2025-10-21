@@ -83,7 +83,7 @@ namespace appPetShop.Components.RegrasDeNegocio
         {
             try
             {
-                var comando = _conexao.CreateCommand("DELETE FROM pet WHERE id_cli = @_id");
+                var comando = _conexao.CreateCommand("DELETE FROM pet WHERE id_pet = @_id");
                 comando.Parameters.AddWithValue("@_id", id);
                 comando.ExecuteNonQuery();
             }
@@ -92,6 +92,31 @@ namespace appPetShop.Components.RegrasDeNegocio
                 throw new Exception("Erro ao deletar pet: " + ex.Message);
             }
 
+        }
+
+        public void Atualizar(Pet pet)
+        {
+            try
+            {
+                var comando = _conexao.CreateCommand(@"UPDATE pet SET nome_pet = @_nome, especie_pet = @_especie, raca_pet = @_raca, data_nascimento_pet = 
+                @_dataNasc, idade_pet = @_idade, porte_pet = @_porte, peso_pet = @_peso, id_cli_fk = @_idCli WHERE id_pet = @_id");
+
+                comando.Parameters.AddWithValue("@_nome", pet.Nome);
+                comando.Parameters.AddWithValue("@_especie", pet.Especie);
+                comando.Parameters.AddWithValue("@_raca", pet.Raca);
+                comando.Parameters.AddWithValue("@_dataNasc", pet.Data_Nascimento);
+                comando.Parameters.AddWithValue("@_idade", pet.Idade);
+                comando.Parameters.AddWithValue("@_porte", pet.Porte);
+                comando.Parameters.AddWithValue("@_peso", pet.Peso);
+                comando.Parameters.AddWithValue("@_idCli", pet.Id_Cliente);
+                comando.Parameters.AddWithValue("@_id", pet.Id);
+
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao atualizar pet: " + ex.Message);
+            }
         }
 
     }
