@@ -1,14 +1,23 @@
 ﻿@inherits LayoutComponentBase
+@inject NavigationManager Nav
 
 <div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
+
+    @if (!IsLoginPage)
+    {
+        <div class="sidebar">
+            <NavMenu />
+        </div>
+    }
 
     <main>
-        <div class="top-row px-4">
-            <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
-        </div>
+
+        @if (!IsLoginPage)
+        {
+            <div class="top-row px-4">
+                <a href="https://learn.microsoft.com/aspnet/core/" target="_blank">About</a>
+            </div>
+        }
 
         <article class="content px-4">
             @Body
@@ -21,3 +30,7 @@
     <a href="" class="reload">Reload</a>
     <a class="dismiss">🗙</a>
 </div>
+
+@code {
+    bool IsLoginPage => Nav.Uri.EndsWith("/");
+}

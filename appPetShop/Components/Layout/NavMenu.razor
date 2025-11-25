@@ -1,58 +1,45 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿<div class="top-row ps-3 navbar navbar-dark" style="background-color: #0B5D3A;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">appPetShop</a>
+        <a class="navbar-brand" href="">
+            <button style="background:transparent; border:none">
+                <img src="logout.png" alt="logout">
+            </button>
+        </a>
     </div>
 </div>
 
 <input type="checkbox" title="Navigation menu" class="navbar-toggler" />
 
-<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+<div class="nav-scrollable"
+     style="background-color: #0F8A55;"
+     onclick="document.querySelector('.navbar-toggler').click()">
+
     <nav class="flex-column">
-        
+
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="menu">
+            <NavLink class="nav-link" href="menu" style="color: white;">
                 <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Menu Inicial
             </NavLink>
         </div>
 
-
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="CadastroCliente">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Cadastro de Clientes
-            </NavLink>
-        </div>
-
-    
-
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="cadastroDeProduto">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Cadastro de Produtos
+            <NavLink class="nav-link" href="ListarClientes" style="color: white;">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Clientes
             </NavLink>
         </div>
 
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="cadastroDePet">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Cadastro de Pets
+            <NavLink class="nav-link" href="ListarPets" style="color: white;">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Pets
             </NavLink>
         </div>
 
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="ListarClientes">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Lista de Cliente
+            <NavLink class="nav-link" href="ListarProdutos" style="color: white;">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Produtos
             </NavLink>
         </div>
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="ListarProdutos">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Lista de Produtos
-            </NavLink>
-        </div>
 
-        <div class="nav-item px-3">
-            <NavLink class="nav-link" href="ListarPets">
-                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Lista de Pets
-            </NavLink>
-        </div>
     </nav>
 </div>
-

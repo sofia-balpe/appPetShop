@@ -84,9 +84,8 @@
 
 
             <header class="d-flex justify-content-end align-items-center p-3 border-bottom">
-                <i class="bi bi-gear fs-4 me-3"></i>
-                <i class="bi bi-list fs-4 me-3"></i>
-                <i class="bi bi-box-arrow-right fs-4"></i>
+            <a href="CadastroCliente"> <button class="btn-voltar">Adicionar</button></a>
+
             </header>
 
 
@@ -96,12 +95,7 @@
                         <th>Id</th>
                         <th>Nome</th>
                         <th>CPF</th>
-                        <th>CEP</th>
-                        <th>Rua</th>
-                        <th>Bairro</th>
-                        <th>Número</th>
-                        <th>Complemento</th>
-                        <th>Telefone</th>
+                        <th>CEP</th>                      
                         <th>E-Mail</th>
                         <th>Data de Nascimento</th>
                         <th>Ações</th>
@@ -117,15 +111,14 @@
                                 <td>@cliente.Id</td>
                                 <td>@cliente.Nome</td>
                                 <td>@cliente.CPF</td>
-                                <td>@cliente.CEP</td>
-                                <td>@cliente.Rua</td>
-                                <td>@cliente.Bairro</td>
-                                <td>@cliente.NumeroCasa</td>
-                                <td>@cliente.Complemento</td>
-                                <td>@cliente.Telefone</td>
+                                <td>@cliente.CEP</td>                            
                                 <td>@cliente.Email</td>
                                 <td>@cliente.DataNasc</td>
-                                <td><button class="btn btn-edit me-2" @onclick="() => Editar(cliente.Id)">Editar</button><button class="btn btn-delete" @onclick="() => DeletarCliente(cliente.Id)">Deletar</button></td>
+                                <td>
+                                    <button class="btn btn-edit me-2" @onclick="() => Editar(cliente.Id)">Editar</button>
+                                    <button class="btn btn-delete" @onclick="() => DeletarCliente(cliente.Id)">Deletar</button>
+                                    <button class="btn btn-info me-2" @onclick="() => Visualizar(cliente.Id)">Visualizar</button>
+                                </td>
                               
                             </tr>
 
@@ -155,7 +148,13 @@
         private void Editar(int id)
         {
             Navigation.NavigateTo($"/EditarCliente/{id}");
-        }   
+        }
+
+        private void Visualizar(int id)
+        {
+            Navigation.NavigateTo($"/VerCliente/{id}");
+        }
+
     }
            
 

@@ -1,0 +1,90 @@
+﻿@page "/VerCliente/{id:int}"
+@using appPetShop.Components.RegrasDeNegocio
+@inject ClienteDAO clienteDAO
+@inject NavigationManager Navigation
+
+<h3 class="titulo">Detalhes do Cliente</h3>
+
+@if (cliente == null)
+{
+    <p>Carregando...</p>
+}
+else
+{
+    <a href="ListarClientes"> <button class="btn-voltar">Voltar</button></a>
+    <div class="card-cliente">
+
+        <p><strong>ID:</strong> @cliente.Id</p>
+        <p><strong>Nome:</strong> @cliente.Nome</p>
+        <p><strong>CPF:</strong> @cliente.CPF</p>
+        <p><strong>CEP:</strong> @cliente.CEP</p>
+        <p><strong>Rua:</strong> @cliente.Rua</p>
+        <p><strong>Bairro:</strong> @cliente.Bairro</p>
+        <p><strong>Número:</strong> @cliente.NumeroCasa</p>
+        <p><strong>Complemento:</strong> @cliente.Complemento</p>
+        <p><strong>Telefone:</strong> @cliente.Telefone</p>
+        <p><strong>E-mail:</strong> @cliente.Email</p>
+        <p><strong>Data de Nascimento:</strong> @cliente.DataNasc</p>
+
+
+    </div>
+}
+
+@code {
+    [Parameter] public int id { get; set; }
+
+    private Cliente? cliente;
+
+    protected override void OnInitialized()
+    {
+        cliente = clienteDAO.ListarTodos().FirstOrDefault(c => c.Id == id);
+    }
+
+    private void Voltar()
+    {
+        Navigation.NavigateTo("/ListarPet");
+    }
+}
+
+<style>
+    body {
+        margin: 0;
+        background-color: #F5F5F5;
+        font-family: Arial, sans-serif;
+    }
+
+    .titulo {
+        text-align: center;
+        margin-top: 30px;
+        color: #165C3C;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .card-cliente {
+        background: white;
+        width: 600px;
+        margin: 40px auto;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.15);
+        font-size: 18px;
+        line-height: 1.6;
+        color: #165C3C;
+    }
+
+    .btn-voltar {
+        margin-top: 20px;
+        background-color: #11412A;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .btn-voltar:hover {
+        background-color: #0d2f1f;
+    }
+</style>
+

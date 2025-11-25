@@ -81,9 +81,8 @@
 
 
 <header class="d-flex justify-content-end align-items-center p-3 border-bottom">
-    <i class="bi bi-gear fs-4 me-3"></i>
-    <i class="bi bi-list fs-4 me-3"></i>
-    <i class="bi bi-box-arrow-right fs-4"></i>
+    <a href="CadastroDePet"> <button class="btn-voltar">Adicionar</button></a>
+
 </header>
 
 
@@ -95,9 +94,6 @@
             <th>Espécie</th>
             <th>Raça</th>
             <th>Data de Nascimento</th>
-            <th>Idade</th>
-            <th>Porte</th>
-            <th>Peso</th>
             <th>Cliente/Tutor</th>
             <th>Ações</th>
         </tr>
@@ -114,12 +110,12 @@
                     <td>@pet.Nome</td>
                     <td>@pet.Especie</td>
                     <td>@pet.Raca</td>
-                    <td>@pet.Data_Nascimento</td>
-                    <td>@pet.Idade</td>
-                    <td>@pet.Porte</td>
-                    <td>@pet.Peso</td>
+                    <td>@pet.Data_Nascimento</td>                 
                     <td>@pet.NomeCliente</td>
-                    <td><button class="btn btn-edit me-2" @onclick="() =>Editar(pet.Id)">Editar</button>  <button class="btn btn-delete" @onclick="() => Deletar(pet.Id)">Deletar</button></td>
+                    <td><button class="btn btn-edit me-2" @onclick="() =>Editar(pet.Id)">Editar</button>
+                    <button class="btn btn-delete" @onclick="() => Deletar(pet.Id)">Deletar</button>
+                    <button class="btn btn-info me-2" @onclick="() => Visualizar(pet.Id)">Visualizar</button>
+                    </td>
                 </tr>
 
                 contador++;
@@ -148,6 +144,11 @@
     private void Editar(int id)
     {
         Navigation.NavigateTo($"/EditarPet/{id}");
+    }
+
+    private void Visualizar(int id)
+    {
+        Navigation.NavigateTo($"/VerPet/{id}");
     }
 }
 

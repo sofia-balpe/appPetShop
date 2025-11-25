@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hxdTZLU+jyO0LKVUfZv7u/DYg7InL5/QHsaSrXSVVeU=",
+  "Hash": "65xCEmteArlOII44FMti83hsCqTgCidK1RSKoWaFAUQ=",
   "Source": "appPetShop",
   "BasePath": "_content/appPetShop",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\logout.png",
+      "SourceId": "appPetShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\",
+      "BasePath": "_content/appPetShop",
+      "RelativePath": "logout.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logout.png"
     },
     {
       "Identity": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\ossao.png",

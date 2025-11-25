@@ -1,0 +1,83 @@
+﻿@page "/VerProduto/{id:int}"
+@using appPetShop.Components.RegrasDeNegocio
+@inject ProdutoDAO produtoDAO
+@inject NavigationManager Navigation
+
+<h3 class="titulo">Detalhes do Produto</h3>
+
+@if (produto == null)
+{
+    <p>Carregando...</p>
+}
+else
+{
+    <a href="/ListarProdutos"><button class="btn-voltar">Voltar</button></a>
+
+    <div class="card-cliente">
+
+        <p><strong>ID:</strong> @produto.Id</p>
+        <p><strong>Nome:</strong> @produto.Nome</p>
+        <p><strong>Descrição:</strong> @produto.Descricao</p>
+        <p><strong>Quantidade:</strong> @produto.Quantidade</p>
+        <p><strong>Valor:</strong> R$ @produto.Valor</p>
+
+    </div>
+}
+
+@code {
+    [Parameter] public int id { get; set; }
+
+    private Produto? produto;
+
+    protected override void OnInitialized()
+    {
+        produto = produtoDAO.ListarTodos().FirstOrDefault(p => p.Id == id);
+    }
+
+    private void Voltar()
+    {
+        Navigation.NavigateTo("/ListarProdutos");
+    }
+}
+
+<style>
+    body {
+        margin: 0;
+        background-color: #F5F5F5;
+        font-family: Arial, sans-serif;
+    }
+
+    .titulo {
+        text-align: center;
+        margin-top: 30px;
+        color: #165C3C;
+        font-size: 32px;
+        font-weight: bold;
+    }
+
+    .card-cliente {
+        background: white;
+        width: 600px;
+        margin: 40px auto;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.15);
+        font-size: 18px;
+        line-height: 1.6;
+        color: #165C3C;
+    }
+
+    .btn-voltar {
+        margin-top: 20px;
+        background-color: #11412A;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .btn-voltar:hover {
+        background-color: #0d2f1f;
+    }
+</style>

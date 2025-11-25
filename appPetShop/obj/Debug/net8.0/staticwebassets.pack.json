@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
+      "Id": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\logout.png",
+      "PackagePath": "staticwebassets\\logout.png"
+    },
+    {
       "Id": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\ossao.png",
       "PackagePath": "staticwebassets\\ossao.png"
     },

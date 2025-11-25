@@ -80,9 +80,8 @@
 
 
 <header class="d-flex justify-content-end align-items-center p-3 border-bottom">
-    <i class="bi bi-gear fs-4 me-3"></i>
-    <i class="bi bi-list fs-4 me-3"></i>
-    <i class="bi bi-box-arrow-right fs-4"></i>
+    <a href="CadastroDeProduto"> <button class="btn-voltar">Adicionar</button></a>
+
 </header>
 
 
@@ -110,7 +109,10 @@
                     <td>@produto.Descricao</td>
                     <td>@produto.Quantidade</td>
                     <td>@produto.Valor</td>
-                    <td><button class="btn btn-edit me-2" @onclick="() =>Editar(produto.Id)">Editar</button>  <button class="btn btn-delete" @onclick="() => DeletarProduto(produto.Id)">Deletar</button></td>
+                    <td><button class="btn btn-edit me-2" @onclick="() =>Editar(produto.Id)">Editar</button>
+                    <button class="btn btn-delete" @onclick="() => DeletarProduto(produto.Id)">Deletar</button>
+                    <button class="btn btn-info me-2" @onclick="() => Visualizar(produto.Id)">Visualizar</button>
+                    </td>
                 </tr>
 
                 contador++;
@@ -138,6 +140,10 @@
     private void Editar(int id)
     {
         Navigation.NavigateTo($"/EditarProduto/{id}");
+    }
+    private void Visualizar(int id)
+    {
+        Navigation.NavigateTo($"/VerProduto/{id}");
     }
 }
 
