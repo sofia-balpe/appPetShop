@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "65xCEmteArlOII44FMti83hsCqTgCidK1RSKoWaFAUQ=",
+  "Hash": "eqLKfmHSnba28L/dW/7mT+LqSjYe+itFZZJKRXm9GL4=",
   "Source": "appPetShop",
   "BasePath": "_content/appPetShop",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\logout.png"
+    },
+    {
+      "Identity": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\logout2.png",
+      "SourceId": "appPetShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\",
+      "BasePath": "_content/appPetShop",
+      "RelativePath": "logout2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logout2.png"
     },
     {
       "Identity": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\wwwroot\\ossao.png",

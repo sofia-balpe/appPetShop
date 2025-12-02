@@ -38,6 +38,15 @@ porte_pet varchar(200),
 peso_pet double,
 id_cli_fk int not null
 );
+
+create table Raca(
+id_raca int primary key auto_increment,
+nome_raca varchar(200),
+porte_raca varchar(200),
+expectativa_de_vida varchar(300),
+Observacoes_raca varchar(300)
+);
+
 alter table Pet add foreign Key (id_cli_fk) references cliente(id_cli);
 
 */
