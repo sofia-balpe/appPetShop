@@ -1,0 +1,63 @@
+﻿@page "/EditarEspecie/{id:int}"
+@using appPetShop.Components.RegrasDeNegocio
+@inject EspecieDAO especieDao
+@inject NavigationManager Navigation
+@rendermode InteractiveServer
+
+<h3>Editar Especie</h3>
+
+@if (especie == null)
+{
+    <p>Carregando dados...</p>
+}
+else
+{
+    <EditForm Model="especie" OnValidSubmit="Salvar">
+        <div class="mb-3">
+            <label>Nome:</label>
+            <InputText @bind-Value="especie.Nome" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Nome Cientifico:</label>
+            <InputText @bind-Value="especie.NomeCientifico" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Alimento:</label>
+            <InputText @bind-Value="especie.Alimento" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Habitat:</label>
+            <InputText @bind-Value="especie.Habitat" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success">Salvar Alterações</button>
+        <button type="button" class="btn btn-secondary ms-2" @onclick="Voltar">Cancelar</button>
+    </EditForm>
+}
+
+@code {
+    [Parameter] public int id { get; set; }
+
+    private Especie? especie;
+
+    protected override void OnInitialized()
+    {
+        var lista = especieDao.ListarTodos();
+        especie = lista.FirstOrDefault(c => c.Id == id);
+    }
+
+    private void Salvar()
+    {
+        especieDao.Atualizar(especie);
+        Navigation.NavigateTo("/ListarClientes");
+        
+    }
+
+    private void Voltar()
+    {
+        Navigation.NavigateTo("/ListarClientes");
+    }
+}

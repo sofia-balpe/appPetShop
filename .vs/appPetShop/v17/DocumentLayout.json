@@ -3,40 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\cadastroraca.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\cadastroraca.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\especiedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\especiedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\cadastrodepet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\cadastrodepet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\editarespecie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\editarespecie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\petdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\petdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\editarpet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\editarpet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\cadastrocliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\cadastrocliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\editarcliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\editarcliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\configs\\bancodedados.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\configs\\bancodedados.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\listarespecie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\listarespecie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\menuinicial.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\menuinicial.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\visualizarproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\visualizarproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\visualizarpet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,64 +35,108 @@
       "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\visualizarcliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\visualizarproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\visualizarproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\listarprodutos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\listarprodutos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\listarpets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\listarpets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\listarclientes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\listarclientes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\cadastrodeproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\cadastrodeproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\editarpet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\editarpet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\editarproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\editarproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\especie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\especie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\pet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\db_petshop.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\db_petshop.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\petdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\petdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\configs\\bancodedados.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\configs\\bancodedados.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\editarcliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\editarcliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\cadastroespecie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\cadastroespecie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\cadastrodepet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\cadastrodepet.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\listarpets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\listarpets.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\cadastrodeproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\cadastrodeproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\cadastrocliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\cadastrocliente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\listarprodutos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\listarprodutos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\listarclientes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\listarclientes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\configs\\bancodedados.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\configs\\bancodedados.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\regrasdenegocio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\regrasdenegocio\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\components\\pages\\editarproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\components\\pages\\editarproduto.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|c:\\users\\2023102020068\\documents\\pw\\apppetshop\\apppetshop\\db_petshop.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{24B08C12-0DA1-45CB-9F01-2D2B0974F8FF}|appPetShop\\appPetShop.csproj|solutionrelative:apppetshop\\db_petshop.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,63 +146,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CadastroRaca.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroRaca.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\CadastroRaca.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroRaca.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Pages\\CadastroRaca.razor",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAuwJgAAAAWAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-02T20:33:51.199Z",
+              "WhenOpened": "2025-11-25T18:07:27.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CadastroDePet.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroDePet.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\CadastroDePet.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroDePet.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Pages\\CadastroDePet.razor",
-              "ViewState": "AgIAALQAAAAAAAAAAAAAAM0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "ClienteDAO.cs",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\ClienteDAO.cs",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\ClienteDAO.cs",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\ClienteDAO.cs",
+              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\ClienteDAO.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAwwHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T19:21:31.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Especie.cs",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Especie.cs",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\Especie.cs",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Especie.cs",
+              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\Especie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:02:45.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "VisualizarCliente.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\VisualizarCliente.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\VisualizarCliente.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\VisualizarCliente.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\VisualizarCliente.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T19:24:15.186Z",
+              "WhenOpened": "2025-11-25T19:04:08.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VisualizarProduto.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\VisualizarProduto.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\VisualizarProduto.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\VisualizarProduto.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\VisualizarProduto.razor",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T19:10:00.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "EditarCliente.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarCliente.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\EditarCliente.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarCliente.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Pages\\EditarCliente.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T19:26:02.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T18:06:30.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "MenuInicial.razor",
               "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\MenuInicial.razor",
               "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\MenuInicial.razor",
@@ -178,7 +223,216 @@
               "RelativeToolTip": "appPetShop\\Components\\Pages\\MenuInicial.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T18:02:58.656Z"
+              "WhenOpened": "2025-11-25T18:02:58.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListarEspecie.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarEspecie.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\ListarEspecie.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarEspecie.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\ListarEspecie.razor",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T13:12:54.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EspecieDAO.cs",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\EspecieDAO.cs",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\EspecieDAO.cs",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\EspecieDAO.cs",
+              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\EspecieDAO.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:04:03.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VisualizarPet.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\VisualizarPet.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\VisualizarPet.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\VisualizarPet.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\VisualizarPet.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T18:46:42.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditarPet.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarPet.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\EditarPet.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarPet.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\EditarPet.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T20:29:29.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditarEspecie.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarEspecie.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\EditarEspecie.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarEspecie.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\EditarEspecie.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAB8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T14:58:50.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T18:06:30.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditarCliente.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarCliente.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\EditarCliente.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarCliente.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\EditarCliente.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T19:26:02.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Pet.cs",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Pet.cs",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\Pet.cs",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Pet.cs",
+              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\Pet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T18:32:13.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\_Imports.razor",
+              "RelativeToolTip": "appPetShop\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T15:05:15.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\App.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\App.razor",
+              "RelativeToolTip": "appPetShop\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T15:05:17.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Routes.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T15:05:19.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PetDAO.cs",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\PetDAO.cs",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\PetDAO.cs",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\PetDAO.cs",
+              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\PetDAO.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAmwAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T19:26:36.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CadastroEspecie.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroEspecie.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\CadastroEspecie.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroEspecie.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\CadastroEspecie.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T13:38:48.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CadastroDePet.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroDePet.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\CadastroDePet.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroDePet.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\CadastroDePet.razor",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAswN8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T19:24:15.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ListarPets.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarPets.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\ListarPets.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarPets.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\ListarPets.razor",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T20:02:07.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-09T14:43:00.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -188,74 +442,79 @@
               "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\Login.razor",
               "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\Login.razor",
               "RelativeToolTip": "appPetShop\\Components\\Pages\\Login.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswDMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T18:02:47.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EditarProduto.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarProduto.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\EditarProduto.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarProduto.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Pages\\EditarProduto.razor",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-21T18:51:17.384Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Pet.cs",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Pet.cs",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\Pet.cs",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Pet.cs",
-              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\Pet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-21T18:32:13.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "EditarPet.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarPet.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\EditarPet.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarPet.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Pages\\EditarPet.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEcAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T20:29:29.993Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Cliente.cs",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\Cliente.cs",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Cliente.cs",
-              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T20:21:20.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PetDAO.cs",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\PetDAO.cs",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\PetDAO.cs",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\PetDAO.cs",
-              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\PetDAO.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T19:26:36.09Z",
+              "WhenOpened": "2025-11-25T18:02:47.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 23,
+              "Title": "CadastroDeProduto.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroDeProduto.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\CadastroDeProduto.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroDeProduto.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\CadastroDeProduto.razor",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAgwLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T20:02:03.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProdutoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\ProdutoDAO.cs",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\ProdutoDAO.cs",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\ProdutoDAO.cs",
+              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\ProdutoDAO.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T20:11:34.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ListarProdutos.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarProdutos.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\ListarProdutos.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarProdutos.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\ListarProdutos.razor",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAgwJYAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T20:10:23.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Produto.cs",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\Produto.cs",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Produto.cs",
+              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T20:11:32.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ListarClientes.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarClientes.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\ListarClientes.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarClientes.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\ListarClientes.razor",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T20:20:13.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "CadastroCliente.razor",
               "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroCliente.razor",
               "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\CadastroCliente.razor",
@@ -268,140 +527,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "bancoDeDados.sql ",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Program.cs",
+              "RelativeDocumentMoniker": "appPetShop\\Program.cs",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Program.cs",
+              "RelativeToolTip": "appPetShop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T13:28:58.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Cliente.cs",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\Cliente.cs",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Cliente.cs",
+              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T20:21:20.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EditarProduto.razor",
+              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarProduto.razor",
+              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\EditarProduto.razor",
+              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\EditarProduto.razor",
+              "RelativeToolTip": "appPetShop\\Components\\Pages\\EditarProduto.razor",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T18:51:17.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "bancoDeDados.sql",
               "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Configs\\bancoDeDados.sql",
               "RelativeDocumentMoniker": "appPetShop\\Configs\\bancoDeDados.sql",
               "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Configs\\bancoDeDados.sql",
               "RelativeToolTip": "appPetShop\\Configs\\bancoDeDados.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-10-14T20:00:21.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-14T20:00:21.087Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T18:07:27.487Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VisualizarPet.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\VisualizarPet.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\VisualizarPet.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\VisualizarPet.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Pages\\VisualizarPet.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T18:46:42.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VisualizarCliente.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\VisualizarCliente.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\VisualizarCliente.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\VisualizarCliente.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Pages\\VisualizarCliente.razor",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T19:04:08.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "VisualizarProduto.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\VisualizarProduto.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\VisualizarProduto.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\VisualizarProduto.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Pages\\VisualizarProduto.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-25T19:10:00.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ListarClientes.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarClientes.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\ListarClientes.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarClientes.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Pages\\ListarClientes.razor",
-              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T20:20:13.524Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ProdutoDAO.cs",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\ProdutoDAO.cs",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\ProdutoDAO.cs",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\ProdutoDAO.cs",
-              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\ProdutoDAO.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAAwFoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T20:11:34.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Produto.cs",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\Produto.cs",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\Produto.cs",
-              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T20:11:32.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ListarProdutos.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarProdutos.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\ListarProdutos.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarProdutos.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Pages\\ListarProdutos.razor",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T20:10:23.307Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CadastroDeProduto.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroDeProduto.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\CadastroDeProduto.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\CadastroDeProduto.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Pages\\CadastroDeProduto.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T20:02:03.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ListarPets.razor",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarPets.razor",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\Pages\\ListarPets.razor",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\Pages\\ListarPets.razor",
-              "RelativeToolTip": "appPetShop\\Components\\Pages\\ListarPets.razor",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAG0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-14T20:02:07.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "db_petshop.sql",
               "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\db_petshop.sql",
               "RelativeDocumentMoniker": "appPetShop\\db_petshop.sql",
@@ -409,18 +583,6 @@
               "RelativeToolTip": "appPetShop\\db_petshop.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-10-14T20:00:17.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ClienteDAO.cs",
-              "DocumentMoniker": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\ClienteDAO.cs",
-              "RelativeDocumentMoniker": "appPetShop\\Components\\RegrasDeNegocio\\ClienteDAO.cs",
-              "ToolTip": "C:\\Users\\2023102020068\\Documents\\pw\\appPetShop\\appPetShop\\Components\\RegrasDeNegocio\\ClienteDAO.cs",
-              "RelativeToolTip": "appPetShop\\Components\\RegrasDeNegocio\\ClienteDAO.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAmwHwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T19:21:31.83Z"
             }
           ]
         }

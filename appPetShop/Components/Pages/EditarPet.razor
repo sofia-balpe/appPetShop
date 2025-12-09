@@ -20,7 +20,14 @@
             </div>
 
             <div class="col-md-6 mb-3">
-                <input @bind-value="pet!.Especie" type="text" class="form-control" placeholder="Espécie">
+                <label>Tutor</label>
+                <select @bind="pet!.Id_Especie" class="form-control">
+                    <option value="">Tutor</option>
+                    @foreach (var especie in listaEspecies)
+                    {
+                        <option value="@especie.Id">@especie.Nome</option>
+                    }
+                </select>
             </div>
 
             <div class="col-md-6 mb-3">
@@ -68,10 +75,12 @@
 
     private Pet? pet;
     private List<Cliente> listaClientes = new();
+    private List<Especie> listaEspecies = new();
 
     protected override async Task OnInitializedAsync()
     {
         listaClientes = petDao.ListarClientes();
+        listaEspecies = petDao.ListarEspecies();
         var lista = petDao.ListarTodos();
         pet = lista.FirstOrDefault(c => c.Id == id);
     }

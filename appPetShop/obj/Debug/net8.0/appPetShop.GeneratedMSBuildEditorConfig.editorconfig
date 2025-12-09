@@ -34,12 +34,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYWRhc3Ryb0RlUHJvZHV0by5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2023102020068/Documents/pw/appPetShop/appPetShop/Components/Pages/CadastroRaca.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYWRhc3Ryb1JhY2EucmF6b3I=
+[C:/Users/2023102020068/Documents/pw/appPetShop/appPetShop/Components/Pages/CadastroEspecie.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDYWRhc3Ryb0VzcGVjaWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/2023102020068/Documents/pw/appPetShop/appPetShop/Components/Pages/EditarCliente.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFZGl0YXJDbGllbnRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2023102020068/Documents/pw/appPetShop/appPetShop/Components/Pages/EditarEspecie.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFZGl0YXJFc3BlY2llLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/2023102020068/Documents/pw/appPetShop/appPetShop/Components/Pages/EditarPet.razor]
@@ -60,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/2023102020068/Documents/pw/appPetShop/appPetShop/Components/Pages/ListarClientes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0YXJDbGllbnRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/2023102020068/Documents/pw/appPetShop/appPetShop/Components/Pages/ListarEspecie.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0YXJFc3BlY2llLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/2023102020068/Documents/pw/appPetShop/appPetShop/Components/Pages/ListarPets.razor]

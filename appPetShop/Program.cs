@@ -11,6 +11,7 @@ builder.Services.AddScoped<Conexao>();
 builder.Services.AddScoped<ClienteDAO>();
 builder.Services.AddScoped<ProdutoDAO>();
 builder.Services.AddScoped<PetDAO>();
+builder.Services.AddScoped<EspecieDAO>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

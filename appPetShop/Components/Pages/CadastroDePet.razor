@@ -131,7 +131,13 @@
 
                     <div class="col-md-6 mb-3">
                         <label>Espécie</label>
-                        <input @bind-value="_novoPet!.Especie" type="text" class="form-control">
+                        <select @bind="_novoPet!.Id_Especie" class="form-control">
+                            <option value="">Espécie</option>
+                            @foreach (var especie in listaEspecies)
+                            {
+                                <option value="@especie.Id">@especie.Nome</option>
+                            }
+                        </select>
                     </div>
 
                     <div class="col-md-6 mb-3">
@@ -190,10 +196,12 @@
     private Pet? _novoPet { get; set; } = new();
 
     private List<Cliente> listaClientes = new();
+    private List<Especie> listaEspecies = new();
 
     protected override void OnInitialized()
     {
         listaClientes = petDAO.ListarClientes();
+        listaEspecies = petDAO.ListarEspecies();
     }
 
     private void Salvar()

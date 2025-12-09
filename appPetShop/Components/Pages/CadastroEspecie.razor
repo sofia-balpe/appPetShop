@@ -1,10 +1,9 @@
-﻿<h3>CadastroRaca</h3>
-
+﻿@page "/CadastroDeEspecie"
 @using appPetShop.Components.RegrasDeNegocio
-@inject PetDAO petDAO
+@using appPetShop.Configs
+@inject EspecieDAO especieDao
 @inject NavigationManager Navigation
 @rendermode InteractiveServer
-
 
 @if (erro != null)
 {
@@ -83,6 +82,8 @@
         }
 
 
+
+
     .header {
         display: flex;
         align-items: center;
@@ -106,81 +107,72 @@
         cursor: pointer;
         border-radius: 5px;
     }
+
 </style>
 
-<div class="content flex-grow-1" style="background:#f4f4f4">
-    <div class="container">
-        <div class="header">
-            <a href="menu">
-                <button class="btn-voltar">Voltar</button>
-            </a>
-            <h1>Cadastro de Raça</h1>
-        </div>
+<div class="d-flex" style="background:#f4f4f4">
 
-        <EditForm Model="_novoPet" OnSubmit="Salvar">
 
-            <div class="row">
+    <div class="content flex-grow-1" style="background:#f4f4f4">
 
-                <div class="col-md-6 mb-3">
-                    <label>Nome da Raça</label>
-                    <input @bind-value="_novoPet!.Nome" type="text" class="form-control" />
-                </div>
 
-                <div class="col-md-6 mb-3">
-                    <label>Porte</label>
-                    <input @bind-value="_novoPet!.Porte" type="text" class="form-control" />
-                </div>
-
-                <div class="col-md-6 mb-3">
-                    <label>Expectativa de vida</label>
-                    <input @bind-value="_novoPet!.Expectativadevida" type="text" class="form-control" />
-                </div>
-
-                <div class="col-md-6 mb-3">
-                    <label>Observações</label>
-                    <input @bind-value="_novoPet!.Observações" type="text" class="form-control" />
-                </div> <!-- FECHAMENTO FALTANDO -->
-
-                <div class="col-md-6 mb-3">
-                    <label>Tutor</label>
-                    <select @bind="_novoPet!.Id_Cliente" class="form-control">
-                        <option value="">Tutor</option>
-                        @foreach (var cliente in listaClientes)
-                        {
-                            <option value="@cliente.Id">@cliente.Nome</option>
-                        }
-                    </select>
-                </div>
-
-                <div class="col-12 mt-3 text-end">
-                    <input type="submit" class="btn btn-primary px-4" value="Cadastrar" />
-                </div>
-
+        <div class="container">
+            <div class="header">
+                <a href="menu"> <button class="btn-voltar">Voltar</button></a>
+                <h1>Cadastro de Especie</h1>
             </div>
 
-        </EditForm>
+
+            <EditForm Model="_novoEspecie" OnSubmit="Salvar">
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label>Nome</label>
+                        <input @bind-value="_novoEspecie!.Nome" type="text" class="form-control">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label>Nome Científico</label>
+                        <input @bind-value="_novoEspecie!.NomeCientifico" type="text" class="form-control">
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label>Alimento</label>
+                        <input @bind-value="_novoEspecie!.Alimento" type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label>Habitat</label>
+                        <input @bind-value="_novoEspecie!.Habitat" type="text" class="form-control">
+                    </div>
+
+                    <div class="col-12 mt-3 text-end">
+                        <input type="submit" class="btn btn-primary px-4" value="Cadastrar">
+                    </div>
+                </div>
+
+            </EditForm>
+        </div>
     </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 
 @code {
     private string? erro = null;
 
     [SupplyParameterFromForm]
-    private Pet? _novoPet { get; set; } = new();
-
-    private List<CadastroRaca> listaRaca = new();
-
-    protected override void OnInitialized()
-    {
-        listaRaca = petDAO.ListarClientes();
-    }
+    private Especie? _novoEspecie { get; set; } = new();
 
     private void Salvar()
     {
+
         try
         {
-            petDAO.Inserir(_novoPet);
-            Navigation.NavigateTo("/ListarPets");
+            especieDao.Inserir(_novoEspecie);
+
+            Navigation.NavigateTo(uri: "/ListarEspecies");
         }
         catch (Exception ex)
         {
@@ -188,3 +180,4 @@
         }
     }
 }
+
